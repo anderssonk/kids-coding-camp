@@ -1,0 +1,101 @@
+body {
+	font-family: sans-serif;
+	background-color: #485461;
+	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+	margin: 0px;
+}
+
+.debug {
+	border: 1px solid black;
+}
+
+/* Text (p, h1, h2 ...) */
+
+h1,
+h2,
+.menu {
+	font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+	font-size: 140px;
+	margin: 5px;
+}
+
+h2 {
+	font-size: 42px;
+	margin: 5px;
+}
+
+/* Header */
+
+.header {
+	background-image: url('orca-background.jpg');
+	background-size: cover;
+	height: 45vh;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	text-shadow: 2px 2px #000000;
+}
+
+/* Länkar */
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	color: #000000;
+}
+
+/* Meny */
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	flex-grow: 1;
+	padding: 5px;
+	text-align: center;
+	background-color: #adb3bb;
+}
+
+.menu li:hover {
+	background-color: #c6ceda;
+}
+
+.menu p {
+	font-size: 28px;
+	margin: 2px;
+}
+
+/* Innehåll och bilder */
+
+.container {
+	width: 70%;
+	margin: auto;
+}
+
+.content-box {
+	background-color: white;
+	padding: 15px;
+	margin: 10px 0px;
+}
+
+.images img {
+	margin: 5px;
+	height: 25vh;
+}
+
+/* Footer */
+
+.footer {
+	text-align: center;
+}
